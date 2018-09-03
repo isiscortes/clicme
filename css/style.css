@@ -73,8 +73,12 @@
 	width: 35%;
 }
 
-.d30{
+.d33{
 	width: 33.3333333%;
+}
+
+.d30{
+	width: 30%;
 }
 
 
@@ -326,6 +330,36 @@ header nav a{
 	display: inline-block;
 }
 
+.whatsf{
+	background: url(../img/whp_f.png);
+	height: 77px;
+	display: block;
+	background-repeat: no-repeat;
+}
+
+.facebookf{
+	background: url(../img/fb_f.png);
+	height: 77px;
+	display: block;
+	background-repeat: no-repeat;
+}
+
+.youtubef{
+	background: url(../img/yt_b.png);
+	height: 77px;
+	display: block;
+	background-repeat: no-repeat;
+}
+
+.mailf{
+	background: url(../img/em_f.png);
+	height: 77px;
+	display: block;
+	background-repeat: no-repeat;
+}
+
+
+
 /* Eyecatcher con CSS 
 .eyecatcher{
 	background: url(../img/sl5.jpg);
@@ -361,7 +395,7 @@ header nav a{
 }
 
 .verde{
-	color: #00FF00;
+	color: #00FF7F;
 }
 
 .azul{
@@ -381,18 +415,18 @@ header nav a{
 }
 
 .btnv{
-	background-color: #00FF00;
+	background-color: #00FF7F;
 	color: white;
 	display: block;
 	margin: auto;
-	width: 150px;
+	width: 324px;
 	border-radius: 10px;
-	padding: 13px 13px;
+	padding: 7px 13px;
 	cursor: pointer;
 	text-align: center;
-	font-size: 18px;
+	font-size: 45px;
 	font-family: "BebasNeue";
-	margin-top: 2%;
+	margin-top: 31%;
 }
 
 .btnv:hover {background-color: #46a049;}
@@ -425,71 +459,6 @@ button:hover:not(.active) {
 	width: 100%;
 }
 
-.web{
-	background-image: url(../img/ser1.jpg);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	height: 250px;
-	padding: 2%;
-	display: block;
-	margin: auto;
-}
-
-.branding{
-	background-image: url(../img/ser2.jpg);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	height: 250px;
-	padding: 2%;
-	display: block;
-	margin: auto;
-}
-
-.marketing{
-	background-image: url(../img/ser3.jpg);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	height: 250px;
-	padding: 2%;
-	display: block;
-	margin: auto;
-}
-
-.ecommerce{
-	background-image: url(../img/ser4.jpg);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	height: 250px;
-	padding: 2%;
-	display: block;
-	margin: auto;
-}
-
-.video{
-	background-image: url(../img/ser5.jpg);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	height: 250px;
-	padding: 2%;
-	display: block;
-	margin: auto;
-}
-
-.apps{
-	background-image: url(../img/ser6.jpg);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	height: 250px;
-	padding: 2%;
-	display: block;
-	margin: auto;
-}
-
-.txtsoluciones{
-	font-size: 2.5em;
-	margin-top: 80px;
-	text-align: center;
-}
 
 .estra{
 	background: url(../img/back_estra.jpg) no-repeat;
@@ -499,26 +468,25 @@ button:hover:not(.active) {
 }
 
 .partners{
-	background: url(../img/back_sl.jpg) no-repeat;
+	background: url(../img/back_sl.jpg) no-repeat center;
 	height: 617px;
-	background-size: 100% 100%;
 	width: 100%;
-	position: relative;
 }
 
 .fin{
 	background-color: #000000;
-	height: 50px;
-	color: white;;
-	display: block
+	height: 70px;
+	color: white;
+	display: block;
 }
 
 .contact{
-	background-color: #00FF00;
+	background-color: #00FF7F;
 	color: black;
 	width: 100%;
-	height: 150px;
+	height: auto;
 	display: block;
+	overflow: hidden;
 }
 
 .m-r{
@@ -532,59 +500,7 @@ button:hover:not(.active) {
 	display: block
 }
 
-.trubic{
-	position: absolute;
-	right: 0;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-    margin-left: 30%;
-    margin-top: 22%;
-}
 
-.dafnis{
-	position: absolute;
-	right: 0;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-    margin-top: 20%;
-}
-
-.enerbyt{
-	position: absolute;
-	right: 0;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-    margin-top: 22%;
-    margin-right: 30%;
-}
-
-.vitralia{
-	position: absolute;
-	right: 0;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-    margin-top: 28%;
-    margin-left: 38%;
-}
-
-.thebots{
-	position: absolute;
-	right: 0;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-    margin-top: 30%;
-    margin-right: 38%;
-}
 
 .clic{
 	position: absolute;
@@ -593,5 +509,445 @@ button:hover:not(.active) {
     right: 0;
     left: 0;
     margin: auto;
-    margin-top: 38%;
+    margin-top: 53px;
+    margin-bottom: 12px;
+}
+
+
+/* Clase click manita
+.fondo_mano{
+	width: 100%;
+	float: left;
+	z-index: 2;
+	position: relative;
+}
+
+.contenedor_mano{
+	max-width: 1200px;
+	margin: 0 auto;
+	float: none;
+	display: block;
+}
+*/
+
+
+
+/* Centras objeto */
+.contenedor_define{
+	max-width: 1200px;
+	margin: 0 auto;
+	float: none;
+	display: block;
+}
+
+.define{
+	float: left;
+}
+
+.defineimg{
+	width: 100%;
+	float: left;
+	height: auto;
+	margin-top: -22px;
+	margin-bottom: -22px;
+}
+
+.fondo_define{
+	background-color: white;
+	width: 100%;
+	float: left;
+	z-index: 2;
+	position: relative;
+}
+
+.d20_define{
+	width: 20%;
+}
+
+.d40_define{
+	width: 40%;
+}
+
+.margen1{
+	margin-top: 1%;
+	text-align: left;
+	background: url(../img/h_m.png) no-repeat right center;
+	height: 154px;
+	width: 40%;
+}
+
+
+.margen2{
+	margin-top: 1%;
+	text-align: left;
+
+}
+
+.bordes{
+	box-sizing: border-box;
+	width: 400px;
+    padding: 23px;    
+    border: 10px ;
+}
+
+.posicionar{
+	margin-top: 8%;
+	margin-left: 50%;
+}
+
+.btnf{
+	background-color: black;
+	color: white;
+	display: block;
+	margin: auto;
+	width: 150px;
+	border-radius: 10px;
+	padding: 13px 13px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 18px;
+	font-family: "BebasNeue";
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.btnf:hover {background-color: #46a049;}
+
+.m-b-n{
+	margin-bottom: -5px;
+}
+
+.txts{
+	color: white;
+	font-size: 4.5em;
+	margin-top: 128px;
+	margin-left: 71px;
+	margin-bottom: -130px;
+
+}
+
+
+.txts1{
+	color: white;
+	font-size: 3em;
+	margin-top: 128px;
+	margin-left: 71px;
+	margin-bottom: -130px;
+
+}
+
+.contenedor{
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.estrategia{
+	width: 1000px;
+	font-size: 1.1em;
+}
+
+.txt{
+	width: 250px;
+}
+
+.btno{
+	background-color: #00FF7F;
+	color: white;
+	display: block;
+	margin: auto;
+	width: 150px;
+	border-radius: 10px;
+	padding: 13px 13px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 18px;
+	font-family: "BebasNeue";
+	margin-top: -25px;
+}
+
+.btno:hover {background-color: #46a049;}
+
+.cajalogo{
+	width: 850px;
+	margin: 0 auto;
+	float: none;
+	display: block;
+	margin-top: 18%;
+}
+
+img{
+	display: block;
+	margin: auto;
+}
+
+.vitralia{
+	margin-right: 16%;
+}
+
+.bots{
+	margin-top: 11%;
+	margin-left: 19%;
+}
+
+.tw{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+h4{
+	font-size: 3.6em !important;
+}
+
+.division{
+  max-width: 1171px;
+  display: block;
+  margin: 0 auto;
+}
+
+.size{
+	width: 298px;
+}
+
+/*Media Queries*/
+
+/*Celular*/
+
+
+@media only screen and (min-width: 200px) and (max-width: 600px){
+	.txts{
+	color: white;
+	font-size: 4.5em;
+	margin-top: 128px;
+	margin-left: 71px;
+	margin-bottom: -130px;
+
+}
+
+
+.txts1{
+	color: white;
+	font-size: 3em;
+	margin-top: 128px;
+	margin-left: 71px;
+	margin-bottom: -130px;
+
+}
+
+}
+
+@media only screen and (min-width: 601px){
+	.txts{
+	color: white;
+	font-size: 4.5em;
+	margin-top: 128px;
+	margin-left: 71px;
+	margin-bottom: -130px;
+
+}
+
+
+.txts1{
+	color: white;
+	font-size: 3em;
+	margin-top: 128px;
+	margin-left: 71px;
+	margin-bottom: -130px;
+
+}
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.txts{
+	color: white;
+	font-size: 2.5em;
+	margin-top: 128px;
+	margin-left: 71px;
+	margin-bottom: -130px;
+
+}
+
+
+.txts1{
+	color: white;
+	font-size: 2em;
+	margin-top: 128px;
+	margin-left: 71px;
+	margin-bottom: -130px;
+
+}
+.btnv{
+	background-color: #00FF7F;
+	color: white;
+	display: block;
+	margin: auto;
+	width: 199px;
+	border-radius: 10px;
+	padding: 6px 13px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 41px;
+	font-family: "BebasNeue";
+	margin-top: 41%;
+}
+
+.btnv:hover {background-color: #46a049;}
+
+.bordes{
+	box-sizing: border-box;
+	width: 285px;
+    padding: 23px;    
+    border: 10px ;
+}
+
+.fondoworks{
+	background: url(../img/back_ser.jpg) no-repeat;
+	height: 510px;
+	width: 100%;
+}
+
+.size{
+	width: 242px;
+}
+
+.cajalogo{
+	width: 850px;
+	margin: 0 auto;
+	float: none;
+	display: block;
+	margin-top: 27%;
+}
+}
+
+/*Laptop*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.txts{
+	color: white;
+	font-size: 4.5em;
+	margin-top: 128px;
+	margin-left: 71px;
+	margin-bottom: -130px;
+
+}
+
+
+.txts1{
+	color: white;
+	font-size: 3em;
+	margin-top: 128px;
+	margin-left: 71px;
+	margin-bottom: -130px;
+
+}
+.btnv{
+	background-color: #00FF7F;
+	color: white;
+	display: block;
+	margin: auto;
+	width: 324px;
+	border-radius: 10px;
+	padding: 7px 13px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 45px;
+	font-family: "BebasNeue";
+	margin-top: 31%;
+}
+
+.btnv:hover {background-color: #46a049;}
+
+.bordes{
+	box-sizing: border-box;
+	width: 400px;
+    padding: 23px;    
+    border: 10px ;
+}
+
+.fondoworks{
+	background: url(../img/back_ser.jpg) no-repeat;
+	height: 767px;
+	width: 100%;
+}
+.size{
+	width: 298px;
+}
+
+.cajalogo{
+	width: 850px;
+	margin: 0 auto;
+	float: none;
+	display: block;
+	margin-top: 18%;
+}
+
+}
+
+/*Desktop*/
+
+@media screen and (min-width: 1200px){
+
+.txts{
+	color: white;
+	font-size: 4.5em;
+	margin-top: 128px;
+	margin-left: 71px;
+	margin-bottom: -130px;
+
+}
+
+
+.txts1{
+	color: white;
+	font-size: 3em;
+	margin-top: 128px;
+	margin-left: 71px;
+	margin-bottom: -130px;
+
+}
+
+.btnv{
+	background-color: #00FF7F;
+	color: white;
+	display: block;
+	margin: auto;
+	width: 324px;
+	border-radius: 10px;
+	padding: 7px 13px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 45px;
+	font-family: "BebasNeue";
+	margin-top: 31%;
+}
+
+.btnv:hover {background-color: #46a049;}
+
+.bordes{
+	box-sizing: border-box;
+	width: 400px;
+    padding: 23px;    
+    border: 10px ;
+}
+
+.fondoworks{
+	background: url(../img/back_ser.jpg) no-repeat;
+	height: 767px;
+	width: 100%;
+}
+
+.size{
+	width: 298px;
+}
+
+.cajalogo{
+	width: 850px;
+	margin: 0 auto;
+	float: none;
+	display: block;
+	margin-top: 18%;
+}
 }
